@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": ["prettier", "eslint:recommended", "plugin:react/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["babel", "import", "prettier", "react", "jsdoc"],
+  "rules": {
+    "prettier/prettier": "error",
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-duplicate-case": "error",
+    "no-dupe-else-if": "error",
+    "no-dupe-keys": "error",
+    "no-empty": "warn",
+    "no-extra-parens": "error",
+    "no-extra-semi": "error",
+    "no-unreachable": "error",
+    "no-unsafe-negation": "error",
+    "valid-typeof": "error",
+    "array-callback-return": "error",
+    "complexity": ["error", 3],
+    "curly": ["error", "multi"],
+    "dot-location": ["error", "property"],
+    "eqeqeq": ["error", "smart"],
+    "no-irregular-whitespace": [
+      "error",
+      { "skipComments": true, "skipRegExps": true }
+    ],
+    "array-bracket-spacing": ["error", "never"],
+    "block-spacing": "error",
+    "camelcase": ["error", { "ignoreDestructuring": true }],
+    "implicit-arrow-linebreak": ["error", "below"],
+    "key-spacing": ["error", { "beforeColon": true }],
+    "max-len": ["error", { "code": 80, "tabWidth": 2 }]
+  }
+}
