@@ -20,6 +20,7 @@
     "test:ci": "npm run test -- --runInBand",
     "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject",
+    "build-storybook": "build-storybook -s public",
     "storybook": "start-storybook"
   },
   "eslintConfig": {
