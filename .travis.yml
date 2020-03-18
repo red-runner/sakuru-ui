@@ -1,18 +1,20 @@
 language: node_js
 node_js:
   - 'stable'
-cache:
-  directories:
-    - node_modules
+
 script:
-  - npm test
-  - npm run test:coverage
+  - npm run install:peers
+  - npm run lint
+  - npm run test:ci
   - npm run build
+
+notifications:
+  email: false
 
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 3d66ac997c46f435cb9bd39cc4783bc02b102a5b
+  github_token: $sakuru_git_token
   local_dir: build
   on:
     branch: master
