@@ -8,6 +8,7 @@ script:
   - npm install
   - npm test
   - npm run build
+  - npm run build-storybook
 deploy:
   provider: pages
   skip_cleanup: true

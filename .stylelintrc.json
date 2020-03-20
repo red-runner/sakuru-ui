@@ -9,7 +9,7 @@
     "no-missing-end-of-source-newline": true,
     "no-empty-first-line": true,
     "color-no-invalid-hex": true,
-    "font-family-no-duplicate-names": true,
+    "font-family-no-duplicate-names": false,
     "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "function-linear-gradient-no-nonstandard-direction": true,
@@ -48,6 +48,8 @@
     "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-type-case": "lower",
     "selector-list-comma-newline-after": "always",
-    "media-feature-colon-space-after": "always"
+    "media-feature-colon-space-after": "always",
+    "value-list-comma-newline-after": "never-multi-line",
+    "declaration-colon-newline-after": "always-multi-line"
   }
 }
