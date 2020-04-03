@@ -27,7 +27,6 @@ jobs:
     - run: npm ci
     - run: npm install
     - run: npm test
-    - run: npm build
-    - run: npm build-storybook
+    - run: npm run-script build
       env:
         CI: true
