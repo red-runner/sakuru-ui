@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/red-runner/sakuru-ui/static/css/main.61b3694c.chunk.css",
+    "main.js": "/red-runner/sakuru-ui/static/js/main.faa9ee73.chunk.js",
+    "main.js.map": "/red-runner/sakuru-ui/static/js/main.faa9ee73.chunk.js.map",
+    "runtime-main.js": "/red-runner/sakuru-ui/static/js/runtime-main.6ff1091d.js",
+    "runtime-main.js.map": "/red-runner/sakuru-ui/static/js/runtime-main.6ff1091d.js.map",
+    "static/js/2.787859dc.chunk.js": "/red-runner/sakuru-ui/static/js/2.787859dc.chunk.js",
+    "static/js/2.787859dc.chunk.js.map": "/red-runner/sakuru-ui/static/js/2.787859dc.chunk.js.map",
+    "index.html": "/red-runner/sakuru-ui/index.html",
+    "precache-manifest.13180032e4532cb4c19fa105a5c873ef.js": "/red-runner/sakuru-ui/precache-manifest.13180032e4532cb4c19fa105a5c873ef.js",
+    "service-worker.js": "/red-runner/sakuru-ui/service-worker.js",
+    "static/css/main.61b3694c.chunk.css.map": "/red-runner/sakuru-ui/static/css/main.61b3694c.chunk.css.map",
+    "static/js/2.787859dc.chunk.js.LICENSE.txt": "/red-runner/sakuru-ui/static/js/2.787859dc.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/red-runner/sakuru-ui/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ff1091d.js",
+    "static/js/2.787859dc.chunk.js",
+    "static/css/main.61b3694c.chunk.css",
+    "static/js/main.faa9ee73.chunk.js"
+  ]
+}
